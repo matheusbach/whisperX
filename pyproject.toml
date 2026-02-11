@@ -2,14 +2,14 @@
 urls = { repository = "https://github.com/matheusbach/whisperx" }
 authors = [{ name = "Max Bain" }, { name = "Matheus Bach" }]
 name = "whisperx-legen-fork"
-version = "3.4.5"
+version = "3.4.6"
 description = "Flavored fork of m-bain/WhisperX for LeGen better experience"
 readme = "README.md"
 requires-python = ">=3.9, <3.13"
 license = { text = "BSD-2-Clause" }
 
 dependencies = [
-    "setuptools",
+    "setuptools<75",
     "ctranslate2<4.5.0",
     "faster-whisper>=1.1.1",
     "nltk>=3.9.1",
